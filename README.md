@@ -1,7 +1,7 @@
 # CapistranoELB
 A simple library to control Amazon Elastic Load Balancers for use within Capistrano
 
-*As of version 0.4.0 it looks for an 'elb' tag with value of the name of a loadbalancer to decide when to remove/readd servers.*
+*This is a fork of [thattommyhall/capistrano-elb](https://github.com/thattommyhall/capistrano-elb).  The major difference is that this version does not use amazon tags, and works with multiple load balancers.*
 
 ## Install
 gem install capistrano-elb
